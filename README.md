@@ -1,2 +1,2 @@
 # Translating-Poetry-into-Data
-A Sonification about Persian Poetry. 
+A Sonification about Persian Poetry: fRom a poem written by a computer science professor at Whitman College, my task was to use SonicPi to create a sonification about a pre-existing dataset. My job was to create our own interpretation of the data. For this particular project, I had to convert the strings into integers using a scaling factor, while determining this based on my own interpretation. I needed to ideate using sonic mapping and continuously collaborate to ensure my understanding of the poetry is applied to my conversion.
