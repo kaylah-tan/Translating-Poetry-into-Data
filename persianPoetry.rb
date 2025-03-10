@@ -2,7 +2,6 @@ require 'csv'
 data_filepath = '/Users/kaylahtan/Desktop/translations.csv'
 data = CSV.parse(File.read(data_filepath), headers: true, converters: :numeric)
 
-# Coded by Darin Wilson from Sonic Pi examples
 # The piece consists of three long loops, each of which
 # plays one of two randomly selected pitches. Each note
 # has different attack, release and sleep values, so that
@@ -78,7 +77,6 @@ columns.each do |column|
         
       end
       
-      # Play a note where the pitch is scaled to the dataset values
       play value, attack: 0.2, decay: 0.5, release: 2, amp: 5
       sleep 1.5
     end
